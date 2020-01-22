@@ -8,13 +8,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class OtusHome {
+public class PROverview {
 
-    private static Logger Log = LogManager.getLogger(OtusHome.class);
+    private static Logger Log = LogManager.getLogger(PROverview.class);
 
     WebDriver driver;
 
-    public OtusHome (WebDriver driver) {this.driver = driver;}
+    public PROverview(WebDriver driver) {this.driver = driver;}
 
 //    By loc_main_courses = By.xpath("//div[@class='subtitle-new' and text()='Популярные курсы']");
     By loc_main_courses = By.xpath("//div[@class='subtitle-new']");
